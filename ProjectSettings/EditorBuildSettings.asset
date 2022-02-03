@@ -4,18 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 0
-    path: Assets/Scenes/Sjors.unity
-    guid: ff608d3ee553f474c99d80a4eafbf922
-  - enabled: 1
-    path: Assets/Scenes/ultimatesjorsscene.unity
-    guid: cd784f10b456f7e46bcc9611fe6348dd
+  m_Scenes: []
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4fd35b88dd1628346af6fcba21e4cc64, type: 2}
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: f20c76646741b4e449c9426230f9e633, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 23fc6708a68c32f4cbf5797dc6fc39a3, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 055fb91c490b0b842910ff3ebd2809ef, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 4515fd26efca9454987ec979bc09d34c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3a1f7b20d62ce04458a008ad9f98b2b6, type: 2}

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2e43a6bc-2994-4d25-33d6-e6b54dbf2e75": {
+      "ProjectGuid": "2e43a6bc-2994-4d25-33d6-e6b54dbf2e75",
+      "DisplayName": "Unity.InputSystem",
+      "ColorIndex": 0
+    },
+    "8ce80ec4-3c55-357c-e989-f2e754481f30": {
+      "ProjectGuid": "8ce80ec4-3c55-357c-e989-f2e754481f30",
+      "DisplayName": "Unity.XR.Interaction.Toolkit",
+      "ColorIndex": 1
+    },
+    "2057ffd4-ff48-17cf-0d46-fdeaf4a2cde4": {
+      "ProjectGuid": "2057ffd4-ff48-17cf-0d46-fdeaf4a2cde4",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 2
+    },
+    "d0891b91-9e4b-442c-c2c6-2f3920f2497c": {
+      "ProjectGuid": "d0891b91-9e4b-442c-c2c6-2f3920f2497c",
+      "DisplayName": "Unity.VisualScripting.Core",
+      "ColorIndex": 3
+    },
+    "8d6a978d-63e0-63d7-6193-9d7bcb728a10": {
+      "ProjectGuid": "8d6a978d-63e0-63d7-6193-9d7bcb728a10",
+      "DisplayName": "Assembly-CSharp.Player",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}
