@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{081036B9-C69E-026A-9EAE-799F137368CF}</ProjectGuid>
+    <ProjectGuid>{740B460E-4E41-56EF-CEC9-E244AB233A37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenVR.Editor</AssemblyName>
@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@20314437998b-1614121125000\Editor\OpenVRLoaderMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@20314437998b-1614121125000\Editor\OpenVRBuildProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@20314437998b-1614121125000\Editor\OpenVRSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@20314437998b-1614121125000\Editor\OpenVRSettingsCopier.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Editor\OpenVRLoaderMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Editor\OpenVRBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Editor\OpenVRSettingsEditor.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Editor\OpenVRSettingsCopier.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@20314437998b-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -674,31 +674,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenVR.csproj">
-      <Project>{982E4188-6364-8BC3-EC62-70A87E3EEDCA}</Project>
+      <Project>{0F1CC5C0-4F17-CC79-06F3-5EF121620795}</Project>
       <Name>Unity.XR.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{201B5442-63CA-929A-E6AD-D925499240C0}</Project>
+      <Project>{2A1FA80D-342A-A2AF-441F-6B1E4FD4835E}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{5033831D-0866-D9AF-665D-2D086D238A49}</Project>
+      <Project>{94BC60B6-29CA-A609-0E8F-8468539049E8}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{DD5944FF-0757-3654-DB89-A39A1589F5C2}</Project>
+      <Project>{D7011512-8028-6896-A735-1D3D89ADE960}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{30E1B742-6BDD-AC7E-1102-878833C8BBA3}</Project>
+      <Project>{745BB82B-B7B0-DA30-F1A3-B69E85155C5B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{5521DAAE-2792-F6E8-A4DD-408E7BFD7BFA}</Project>
+      <Project>{4DB725D6-9359-08D4-938B-0057FF73E472}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{F7143210-98D2-28C6-1566-51AC4D0F5EA9}</Project>
+      <Project>{25365E8C-24F5-C560-A1EB-F45327261901}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

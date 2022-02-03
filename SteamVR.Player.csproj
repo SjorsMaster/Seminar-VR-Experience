@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4180172B-56B0-1A9E-156A-9255FD0BCDE4}</ProjectGuid>
+    <ProjectGuid>{9C3B3BA2-6B9C-DEEC-FFA6-265A6CAECBE8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR</AssemblyName>
@@ -805,15 +805,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenVR.csproj">
-      <Project>{982E4188-6364-8BC3-EC62-70A87E3EEDCA}</Project>
+      <Project>{0F1CC5C0-4F17-CC79-06F3-5EF121620795}</Project>
       <Name>Unity.XR.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{F936D159-1F4D-D298-A3CE-8DB9521392BC}</Project>
+      <Project>{47DDA673-22EE-3E8B-75BD-55888D45E1A7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{30E1B742-6BDD-AC7E-1102-878833C8BBA3}</Project>
+      <Project>{745BB82B-B7B0-DA30-F1A3-B69E85155C5B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

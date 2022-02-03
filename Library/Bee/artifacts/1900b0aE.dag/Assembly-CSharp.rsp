@@ -302,7 +302,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
--r:"D:/Offline Projects/SeminarVR/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"D:/Git/Seminar-VR-Experience/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/SteamVR_Editor.ref.dll"
@@ -330,6 +330,7 @@
 "Assets/Scripts/player/Player.cs"
 "Assets/Scripts/player/playerInput.cs"
 "Assets/Scripts/player/tmpMove.cs"
+"Assets/Scripts/Sceneloader.cs"
 "Assets/Scripts/Trigger.cs"
 -langversion:8.0
 

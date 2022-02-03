@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB402270-764A-AF99-6A3B-4F9ECD248C84}</ProjectGuid>
+    <ProjectGuid>{CE1ABE4D-F57C-53CE-8409-13175E107684}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Actions</AssemblyName>
@@ -674,15 +674,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{178520FE-9270-451B-C594-37A463F313F8}</Project>
+      <Project>{28137765-3656-ED57-9F82-7798D4E15D9D}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{DD5944FF-0757-3654-DB89-A39A1589F5C2}</Project>
+      <Project>{D7011512-8028-6896-A735-1D3D89ADE960}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{30E1B742-6BDD-AC7E-1102-878833C8BBA3}</Project>
+      <Project>{745BB82B-B7B0-DA30-F1A3-B69E85155C5B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

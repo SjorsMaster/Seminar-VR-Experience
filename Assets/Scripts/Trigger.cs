@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class Trigger : MonoBehaviour
@@ -10,9 +11,9 @@ public class Trigger : MonoBehaviour
     float _timePassed = 0;
 
     [SerializeField]
-    TextMesh _timerText;
+    Text _timerText;
     [SerializeField]
-    string _timerTextString = "Default Text.";
+    string _timerTextString = "Default Text.", _prefix;
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class Trigger : MonoBehaviour
         _timePassed += Time.deltaTime;
         
         if (_timerText)
-            _timerText.text = _timePassed.ToString();
+            _timerText.text = $"{_prefix}\n{Mathf.Abs(_timePassed - _requiredDelay).ToString("n2")}";
 
         if (_timePassed >= _requiredDelay)
             DoSomething();

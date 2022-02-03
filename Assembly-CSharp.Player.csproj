@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9169FC21-3B0F-B491-43DA-62E613B082B8}</ProjectGuid>
+    <ProjectGuid>{8D6A978D-63E0-63D7-6193-9D7BCB728A10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,13 +53,11 @@
     <UnityVersion>2021.1.4f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Scripts\player\playerInput.cs" />
     <Compile Include="Assets\Scripts\player\tmpMove.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
-    <Compile Include="Assets\Scripts\player\playerInput.cs" />
     <Compile Include="Assets\Scripts\player\Player.cs" />
+    <Compile Include="Assets\Scripts\Sceneloader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -611,43 +609,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenVR.csproj">
-      <Project>{982E4188-6364-8BC3-EC62-70A87E3EEDCA}</Project>
+      <Project>{0F1CC5C0-4F17-CC79-06F3-5EF121620795}</Project>
       <Name>Unity.XR.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{178520FE-9270-451B-C594-37A463F313F8}</Project>
+      <Project>{28137765-3656-ED57-9F82-7798D4E15D9D}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{768CF96C-86E2-BE94-C622-A90BEC45663F}</Project>
+      <Project>{2328052B-A5D1-FB7C-0181-C0E92DACFAFF}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C4D7BA53-EB31-F2AF-050C-5ACB6B441BE7}</Project>
+      <Project>{C10D2288-8A17-DF3C-D47D-31908A072884}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{AB402270-764A-AF99-6A3B-4F9ECD248C84}</Project>
+      <Project>{CE1ABE4D-F57C-53CE-8409-13175E107684}</Project>
       <Name>SteamVR_Actions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{D1CFDCED-B13E-7723-90C6-2A0FCFC53565}</Project>
+      <Project>{72FE3E06-7986-2915-F768-8168D0551A9C}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{30E1B742-6BDD-AC7E-1102-878833C8BBA3}</Project>
+      <Project>{745BB82B-B7B0-DA30-F1A3-B69E85155C5B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{F936D159-1F4D-D298-A3CE-8DB9521392BC}</Project>
+      <Project>{47DDA673-22EE-3E8B-75BD-55888D45E1A7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{317878CF-F823-FE7C-3A04-FBBCD7C7829F}</Project>
+      <Project>{A04917E3-A6A7-0D51-661E-EC98792B3E3C}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{201B5442-63CA-929A-E6AD-D925499240C0}</Project>
+      <Project>{2A1FA80D-342A-A2AF-441F-6B1E4FD4835E}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
   </ItemGroup>
