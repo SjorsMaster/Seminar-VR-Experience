@@ -10,6 +10,7 @@ public class Trigger : MonoBehaviour
     float _requiredDelay;
     float _timePassed = 0;
 
+
     [SerializeField]
     Text _timerText;
     [SerializeField]
@@ -23,10 +24,10 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (_requiredDelay <= 0 && !other.gameObject.GetComponent<Player>())
+        if (_requiredDelay <= 0 && !other.gameObject.GetComponent<PlayerID>())
             return;
      
-        _timePassed += Time.deltaTime;
+        _timePassed += .075f*Time.deltaTime;
         
         if (_timerText)
             _timerText.text = $"{_prefix}\n{Mathf.Abs(_timePassed - _requiredDelay).ToString("n2")}";
@@ -37,7 +38,7 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (!other.gameObject.GetComponent<Player>())
+        if (!other.gameObject.GetComponent<PlayerID>())
             return;
 
         if (_requiredDelay > 0)
@@ -55,7 +56,7 @@ public class Trigger : MonoBehaviour
         if (_requiredDelay > 0)
             return;
 
-        if (other.gameObject.GetComponent<Player>())
+        if (other.gameObject.GetComponent<PlayerID>())
             DoSomething();
     }
 

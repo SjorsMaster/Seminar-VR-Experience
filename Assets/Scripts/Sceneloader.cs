@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using Valve.VR;
 
 public class Sceneloader : MonoBehaviour
 {
     public void LoadNewScene(string nextScene)
     {
-        SceneManager.LoadScene(nextScene);
+        SteamVR_LoadLevel.Begin(nextScene);
     }
 }
