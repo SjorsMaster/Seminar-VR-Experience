@@ -30,7 +30,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "28137765-3656-ed57-9f82-7798d4e15d9d": {
+      "ProjectGuid": "28137765-3656-ed57-9f82-7798d4e15d9d",
+      "DisplayName": "SteamVR",
+      "ColorIndex": 5
+    },
+    "80762ecf-78d8-5033-d969-880b139df6fb": {
+      "ProjectGuid": "80762ecf-78d8-5033-d969-880b139df6fb",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
