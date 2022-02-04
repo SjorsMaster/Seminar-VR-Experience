@@ -56,21 +56,21 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\DeviceLayouts.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\OpenVRHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\openvr_api.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\OpenVRLoader.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\OpenVRSettings.cs" />
-    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\OpenVREvents.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\DeviceLayouts.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\OpenVRHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\openvr_api.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\OpenVRLoader.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\OpenVRSettings.cs" />
+    <Compile Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\OpenVREvents.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x64\openvr_api.dll" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x86\XRSDKOpenVR.dll" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x86\openvr_api.dll" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\Unity.XR.OpenVR.asmdef" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x64\ucrtbased.dll" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x64\XRSDKOpenVR.dll" />
-    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000\Runtime\x86\ucrtbased.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x64\openvr_api.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x86\XRSDKOpenVR.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x86\openvr_api.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\Unity.XR.OpenVR.asmdef" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x64\ucrtbased.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x64\XRSDKOpenVR.dll" />
+    <None Include="Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099\Runtime\x86\ucrtbased.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

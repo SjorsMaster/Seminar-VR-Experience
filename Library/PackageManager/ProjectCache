@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794987734225998
+      ticks: 637795671315408472
     m_Hash: 3528404347
   m_LockFileStatus:
     m_FilePath: D:/Git/Seminar-VR-Experience/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794987734225998
+      ticks: 637795671315418424
     m_Hash: 4201699147
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -31,7 +31,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637497179250000000
+      ticks: 637795671310994653
     m_Hash: 2919789393
 m_ProjectPath: D:/Git/Seminar-VR-Experience/Packages
 m_EditorVersion: 2021.1.4f1 (4cd64a618c1b)
@@ -1004,7 +1004,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.4
   source: 6
-  resolvedPath: D:\Git\Seminar-VR-Experience\Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1614121125000
+  resolvedPath: D:\Git\Seminar-VR-Experience\Library\PackageCache\com.valvesoftware.unity.openvr@828ee0a28c83-1643970331099
   assetPath: Packages/com.valvesoftware.unity.openvr
   name: com.valvesoftware.unity.openvr
   displayName: OpenVR XR Plugin
